@@ -373,5 +373,4 @@ class MyClass extends React.Component {
 		);
 	}
 }
-
 export default MyClass;
