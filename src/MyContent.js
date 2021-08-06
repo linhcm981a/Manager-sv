@@ -1,13 +1,10 @@
 import React from 'react';
-import  './MyContent.css';
+import './MyContent.css';
 
-function MyContent() {
-  return (
-    <div  className="content">
-     hehehlo
-  
-    </div>
-  );
+class MyContent extends React.Component {
+	render() {
+		return <div className={'content'}>Hello</div>;
+	}
 }
 
 export default MyContent;
